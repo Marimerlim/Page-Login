@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+}
+
+.login{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #191970;
+}
+
+.logo{
+    position: relative;
+    bottom: 3rem;
+    width: 15rem;
+}
+
+h2{
+    font-size: medium;
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Sigmar One', cursive,'Calibri', 'Arial';
+    font-size: 1.3rem;
+}
+
+input{
+    width: 20rem;
+    background: #E8E6E6;
+    border: none;
+    border-radius: 5px;
+    padding: 0.8rem;
+    display: flex;
+    margin-bottom: 1rem;
+    
+    outline: none;
+}
+::placeholder{
+    position: relative;
+    bottom: 9px;
+    font-size: 0.75rem;
+}
+
+.checkbox{
+    width: 1rem;
+    display: initial;
+    color: #D3D3D3;
+}
+
+button{
+    width: 5rem;
+    padding: 1rem;
+    border-radius: 6px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.facebook{
+    background: #2051FF;
+    border: none;
+    background-image: url('Img/facebook-logo-fill\ 1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1.4rem;
+}
+.google{
+    background: #8A0000;
+    border: none;
+    background-image: url('Img/google-logo-fill\ 1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1.4rem;
+}
+.apple{
+    background: #000000;
+    border: none;
+    background-image: url('Img/apple-logo-fill\ 1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1.4rem;
+}
+
+ .botao{
+    margin-top: 2.5rem;
+    width: 9rem;
+    font-size: large;
+    padding: 0.8rem;
+    color: white;
+    border: outset;
+    text-transform: uppercase;
+    font-family: 'Sigmar One', cursive;
+    border-color: rgb(24, 24, 238);
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px 2px rgb(5, 5, 41);
+    
+    background-color: blue;
+}
+.botao:hover{
+    transform: scale(1.1);
+    background-image: url('Img/puffle.png');
+    background-size: 3rem;
+    background-repeat: no-repeat;
+    background-position: 0.3rem;
+    text-align: right;
+}
+
+p{
+    color: white;
+    opacity: 0.5;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+p:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.img-jogo{
+    width: 70%;
+    object-fit: cover;
+}
+
+.postit{
+    width: 100px;
+    position: relative;
+    left: 7rem;
+    top: 19.5rem;
+}
+
